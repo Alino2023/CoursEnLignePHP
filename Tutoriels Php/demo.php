@@ -10,7 +10,7 @@ echo "\n";
 echo 'Vous avez obtenu la moyenne de: ' . ($note1 + $note2 ) / 2;
 echo "\nBonjour $prenom $nom vous avez obtenu une moyenne de $moyenne";
 
-//les notions de tableaux en php
+//Les notions de base des tableaux en php
 
 $notes= [10, 20, 15, 12];
 echo "\n$notes[1]"; //affiche la deeuxieme valeur du tableau notes qui se trouve à l'index 1
