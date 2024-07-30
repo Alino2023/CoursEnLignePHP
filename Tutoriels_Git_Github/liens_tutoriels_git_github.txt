@@ -1,17 +1,33 @@
+#############################################################################################################
+
+                                    QUELQUES LIENS SUR LA PRISE EN MAIN DE GIT
+
+##############################################################################################################
+
+
+
 https://www.youtube.com/watch?v=CuEaWutvPa4
 
 --------------------------------------------
 
-COMMANDES IMPORTANTES DE GIT BASH
+
+https://djibril.developpez.com/tutoriels/conception/pro-git/?page=page_2#LII-A-1
+
+--------------------------------------------
 
 
-git init ---------------- pour initialiser 
 
-git add .  -------------- pour ajouter un 
 
-git commit -m "nom de la modification" ----------ajouter les modifications 
 
-git push ----------------- pour ajouter les modifications sur le cloud github
 
-git pull ----------------- pour cloner le repository en ligne dans le ripositoren local
+
+
+
+
+
+
+
+
+
+
 

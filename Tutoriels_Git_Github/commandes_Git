@@ -1,0 +1,51 @@
+############################################################################################################
+
+                               QUELQUES COMMANDES GIT BASH USUELLES
+
+############################################################################################################
+
+
+git init ---------------- pour initialiser ou créer un nouveau dépot Git
+
+git status -------------- pour vérifier l'état des fichiers
+
+git clone <dépôt_URL> <nom_repertoire> ---------- clone un <dépôt_URL>  dans un nouveau repertoire <nom_repertoire>
+
+git add .  -------------- pour ajouter les modifications de tous les fichiers a l'index
+
+git add temp.txt  --------- pour ajouter le contenu modifié du fichier temp.txt a l'index
+
+git commit -m "nom de la modification" ---------- pour valider les modifications qui ont été ajoutées a l'index avec git add et les ajouter au dépot local mais pas encore sur le dépot distant
+
+git push ----------------- pousser son travail sur un d,pot distant (envoyer tous les commits vers le dépot distant)
+
+git pull ----------------- pour récupérer et tirer depuis le dépot distant (permet de mettre a jour le dépot local )
+
+git checkout ------------- pour permet de faire un checkout des anciens commit et les anciennes versions de fichier. Il peremt également de parcourir les branches existantes et de travailler sur une ligne de developpement specifique
+
+git log  ----------------- visualiser l'historiaue des validations
+
+git diff ----------------- affiche les modifications entre les commit, un commit et l'arbre de travail, etc
+
+
+**************************************  LA GESTION DES BRANCHES ***********************************************
+
+------- Créer une branche appelée «fonctionnalité_2» ----------------------------------------------------------  git branch fonctionnalite_2
+
+------- Basculer vers une branche existante «fonctionnalite_1» ------------------------------------------------  git checkout fonctionnalite_1    (tous les commit en ce moment sont faits sur la branche «fonctionnalite_1»
+
+------- Retourner sur la branche principale main ou master ----------------------------------------------------  git checkout main 
+
+------- Supprimer une branche «fonctionnalité_2» --------------------------------------------------------------  git branch -d fonctionnalité_2
+
+------- Incorporer les modifications d'une branche «fonctionnalite_1» dans la branche active ------------------  git merge fonctionnalité_1
+
+
+
+
+
+
+
+
+
+
