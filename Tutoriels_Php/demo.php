@@ -56,7 +56,7 @@ $apprenant = [
 */
   
 
-//--------------------------- GESTION DE TABLEAUX DANS UN TABLEAUX --------------------------------//
+//--------------------------- GESTION DE TABLEAUX DANS UN TABLEAU --------------------------------//
 
 $classe = [
     [
